@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Thêm sách</title>
+	<script src="lib/jquery-3.7.0.min.js"></script>
+
+</head>
+
+<body>
+	<div>
+		<h2>
+			<span>Thêm thông tin sách</span>
+		</h2>
+
+		<div>
+
+			<form action="" method="post">
+
+				<div>
+					<input type="hidden" name="id" value="" />
+					<span class="form-message"></span>
+				</div>
+
+				<div>
+					<label>title</label><br />
+					<input type="text" name="title" value="" />
+					<span class="form-message"></span>
+				</div>
+
+				<div>
+					<label>description</label><br />
+					<textarea rows="3" cols="25" name="description"></textarea>
+					<span class="form-message"></span>
+				</div>
+
+				<div>
+					<label>detail</label><br />
+					<textarea rows="3" cols="25" name="detail"></textarea>
+					<span class="form-message"></span>
+				</div>
+
+				<div>
+					<label>status</label><br />
+					<select name="status" id="statusSelect">
+						<option value="true">Enabled</option>
+						<option value="false">Disabled </option>
+					</select>
+					<span class="form-message"></span>
+				</div>
+				<button id="create">Thêm sách</button>
+				<!-- <input type="submit" value="Thêm sách" /> -->
+			</form>
+			<button><a href="list.html">Danh sách</a></button>
+		</div>
+	</div>
+	<script src="lib/axios.min.js"></script>
+	<script src="js/add2.js"></script>
+
+</body>
+
+</html>

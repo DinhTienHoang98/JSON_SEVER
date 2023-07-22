@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DANH SÁCH SINH VIÊN</title>
+    <script src="lib/jquery-3.7.0.min.js"></script>
+    <style>
+        .invalid {
+            border: 2px solid red;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Danh sách sinh viên</h1>
+    <table id="tbl" border="1px" style="width: 400px"></table>
+    <br /><br />
+    <form>
+        <div>
+            <label>Tên sinh viên</label>
+            <input type="text" name="name" placeholder="Nhập tên sinh viên"><br />
+            <span class="form-message"></span>
+        </div>
+        <br />
+        <div>
+            <label>Lớp</label>
+            <select name="class" id="class"></select><br />
+            <span class="form-message"></span>
+        </div>
+        <div>
+            <button id="create">Thêm</button>
+            <button style="display: none;" id="update">Sửa</button>
+        </div>
+    </form>
+    <script src="lib/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+.wrapper {
+	width: 876px;
+	padding: 10px;
+	margin: 0 auto;
+	font-family: arial;
+}
+
+.clr {
+	clear: both;
+}
+
+li {
+	padding: 10px 0;
+}
+
+h1 {
+	padding: 5px 0;
+	color: #32A5E6;
+	font-size: 20px;
+}
+
+img {
+	float: left;
+	margin-right: 15px;
+}
+
+.khoiphai {
+	float: left;
+	width: 585px;
+}
+
+.khoiphai h2 {
+	margin-bottom: 10px;
+}
+
+.khoiphai h2 a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #000;
+}
+
+.khoiphai p {
+	font-size: 16px;
+}

@@ -1,0 +1,22 @@
+.wrapper{
+	width: 500px;
+	background-color: #C7EEEB;
+}
+.wrapper h3{
+	font-family: tahoma;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: #00A19C;
+	padding: 10px;
+}
+.wrapper form{
+	padding: 10px;
+}
+.wrapper p{
+	padding: 10px;
+}
+strong{
+	font-family: tahoma;
+	font-size: 15px;
+	font-weight: bold;
+}

@@ -1,0 +1,214 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "students": [
+    {
+      "id": 5,
+      "name": "Le Thi Beaassasas",
+      "address": "aaQAA"
+    },
+    {
+      "id": 7,
+      "name": "Hoàng2223333",
+      "address": "Hòa Hải5555"
+    },
+    {
+      "id": 4,
+      "name": "Đinh Tiên Hoàng",
+      "address": "oooo"
+    }
+  ],
+  "student1": [
+    {
+      "id": 1,
+      "name": "Nguyen Van Teo",
+      "classId": 1
+    },
+    {
+      "id": 2,
+      "name": "Nguyen Van Ti",
+      "classId": 2
+    },
+    {
+      "id": 3,
+      "name": "Tran Van Tun",
+      "classId": 3
+    }
+  ],
+  "classlist": [
+    {
+      "id": 1,
+      "name": "CNTT"
+    },
+    {
+      "id": 2,
+      "name": "DTVT"
+    },
+    {
+      "id": 3,
+      "name": "THXD"
+    },
+    {
+      "id": 4,
+      "name": "XDDD"
+    }
+  ],
+  "listNews": [
+    {
+      "id": 1,
+      "img": "images/h1.jpg",
+      "title": "Cách phối đồ đi hẹn hò 8/3 đẹp như Quỳnh Anh Shyn",
+      "content": "8/3 sắp đến rồi, những gợi ý mặc đẹp dưới đây sẽ giúp bạn chọn được bộ đồ ưng ý. Cùng học Quỳnh Anh Shyn một vài cách phối đồ cực hay ho để bạn đi hẹn hò 8/3 nhé!"
+    },
+    {
+      "id": 2,
+      "img": "images/h2.jpg",
+      "title": "Diện đồ đôi cho teen đi hẹn hò ngày 8/3",
+      "content": "Những cặp đôi yêu nhau đã có ý tưởng nên mặc gì trong ngày 8/3 chưa? Những bộ đồ đôi vừa đẹp vừa thoải mái chắc chắn sẽ là gợi ý ăn mặc cho các bạn trẻ. Dưới đây là những bộ đồ đôi đẹp để teen tham ..."
+    },
+    {
+      "id": 3,
+      "img": "images/h3.jpg",
+      "title": "Hướng dẫn chọn trang phục cho teengirl ngày 8/3",
+      "content": "Các teen girl nhà mình hẳn đang rất hào hứng chọn những bộ đồ thật đẹp để đi chơi 8/3. Những gợi ý ăn mặc dưới đây sẽ giúp các nàng có những set đồ thật đẹp để diện trong ngày 8.3 nhé!"
+    }
+  ],
+  "listnew2": [
+    {
+      "id": 1,
+      "img": "images/ThuyTien_01.jpg",
+      "tenHoa": "Hoa thủy tiên",
+      "loaiHoa": "Những bát hoa thủy tiên đẹp chưng trong nhà ngày Tết vốn là thú chơi tao nhã, thanh lịch, hào hoa của người Hà Nội xưa"
+    },
+    {
+      "id": 2,
+      "img": "images/hoalai.jpg",
+      "tenHoa": "Hoa tỉ muội",
+      "loaiHoa": "Hoa phi yến còn có tên hoa chân chim vì hoa trông giống như chân con chim hoặc phi yến (chim yến đang bay) hay violet vì hoa màu tím và còn có tên La-let hay đông thảo thuộc họ Mao lương (Ranuncolaceae) thực chất cũng có cây cho hoa màu hồng và trắng xong rất ít."
+    },
+    {
+      "id": 3,
+      "img": "images/hoalili.PNG",
+      "tenHoa": "Hoa violet",
+      "loaiHoa": "Những giọt nước mắt nào có giúp được gì! Giắc sẽ phải lên đường chinh chiến ở một xứ xa lạ, đành bỏ lại Lilia, người vợ chưa cưới của mình trên đất Pháp. Lúc chia tay, Giắc rút trái tim ra khỏi lồng ngực mình, trao cho Lilia và nói"
+    },
+    {
+      "id": 4,
+      "img": "images/hoaphonglan.jpg",
+      "tenHoa": "Hoa thủy tiên",
+      "loaiHoa": "Mùi hương thoảng thoảng như cứ đeo đẳng theo chúng ta mọi nơi lại phát ra từ những bông hoa trắng nhỏ xíu, mong manh."
+    },
+    {
+      "id": 5,
+      "img": "images/hoaviolet2.jpg",
+      "tenHoa": "Hoa cẩm chướng",
+      "loaiHoa": "Nếu không có ảnh hậu trường, khó ai hình dung được chiêu thức chụp bức ảnh hoa lan này. Nhiều dân mạng đã đặt tên cho tác phẩm này là: \"Tôi đã thấy hoa vàng trên quần đen\". Người ta hay bảo chỉ có giới trẻ mới tiếp cận được những \"tinh hoa\" của công nghệ chỉnh sửa ảnh lung linh ảo diệu thời hiện đại."
+    }
+  ],
+  "listHoa": [
+    {
+      "id": 1,
+      "img": "images/hoa1.jpg",
+      "tenHoa": "Hoa Phong Lan",
+      "loaiHoa": "Khai trương"
+    },
+    {
+      "id": 2,
+      "img": "images/hoa2.jpg",
+      "tenHoa": "Hoa tỉ muội",
+      "loaiHoa": "Khai trương"
+    },
+    {
+      "id": 3,
+      "img": "images/hoa3.jpg",
+      "tenHoa": "Hoa violet",
+      "loaiHoa": "Hoa kỉ niệm"
+    },
+    {
+      "id": 4,
+      "img": "images/hoa4.jpg",
+      "tenHoa": "Hoa thủy tiên",
+      "loaiHoa": "Hoa tình yêu"
+    },
+    {
+      "id": 5,
+      "img": "images/hoa5.jpg",
+      "tenHoa": "Hoa cẩm chướng",
+      "loaiHoa": "Hoa hạnh phúc"
+    }
+  ],
+  "listbook": [
+    {
+      "id": 1,
+      "title": "sdas",
+      "description": "asdsa",
+      "detail": "dsadas",
+      "status": true
+    },
+    {
+      "id": 2,
+      "title": "dsad",
+      "description": "d",
+      "detail": "dđ",
+      "status": true
+    },
+    {
+      "id": 3,
+      "title": "s",
+      "description": "s",
+      "detail": "s",
+      "status": "true"
+    },
+    {
+      "id": 4,
+      "title": "sa",
+      "description": "a",
+      "detail": "s",
+      "status": true
+    },
+    {
+      "id": 5,
+      "title": "s",
+      "description": "s",
+      "detail": "sấ",
+      "status": "true"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "Xây Dựng Website với ReactJS",
+      "description": "Khóa học ReactJS từ cơ bản tới nâng cao, kết quả của khóa học này là bạn có thể làm hầu hết các dự án thường gặp với ReactJS."
+    },
+    {
+      "id": 2,
+      "name": "Xây Dựng Website với ReactJS",
+      "description": "Khóa học ReactJS từ cơ bản tới nâng cao, kết quả của khóa học này là bạn có thể làm hầu hết các dự án thường gặp với ReactJS."
+    },
+    {
+      "name": "sasaassasa",
+      "description": "sasasa",
+      "id": 3
+    }
+  ]
+}

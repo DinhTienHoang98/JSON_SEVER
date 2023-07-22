@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Thay thế chuỗi</title>
+	<link href="css/reset.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<script src="lib/jquery-3.7.0.min.js"></script>
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<h2>Thay thế chuỗi</h2>
+		<form id="form">
+			<p>Đoạn văn gốc</p>
+			<textarea rows="3" id="chuoigoc" name="chuoigoc"></textarea><br />
+			<label>Từ gốc: </label> <input type="text" id="tugoc" name="tugoc" value="" />
+			<label>Thay thế bằng: </label> <input type="text" id="tuthaythe" name="tuthaythe" value="" /><br />
+			<textarea rows="3" id="doanthaythe"></textarea><br />
+			<hr />
+			<div class="buttonHolder">
+				<input type="submit" value="Thực hiện" />
+			</div>
+		</form>
+		<div id="error"></div>
+	</div>
+	<script src="./thaythe.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+#wrapper {
+	width: 883px;
+	margin: 0 auto;
+	border: 1px solid gray;
+	font-family: arial;
+	padding: 10px;
+}
+
+.clr {
+	clear: both;
+}
+
+h1 {
+	font-size: 19px;
+	color: #a81f22;
+	padding-left: 30px;
+	background: url(../images/bullet1.gif) no-repeat left center;
+	padding-bottom: 5px;
+}
+
+ul li {
+	border-bottom: 1px dotted #b2b2b2;
+	padding: 15px 0;
+	width: 678px;
+}
+
+.left {
+	float: left;
+	margin-right: 10px;
+	border: 1px solid #bbbbbb;
+	padding: 2px;
+	border-radius: 5px;
+}
+
+.left img {
+	width: 138px;
+	height: 116px;
+}
+
+.right {
+	float: left;
+	width: 502px;
+	border: 1px solid #f0f0f0;
+	position: relative;
+	border-radius: 5px;
+	padding: 10px;
+	padding-bottom: 40px;
+}
+
+.right h2 {
+	padding: 10px 0;
+}
+
+.right h2 a {
+	font-size: 16px;
+	color: #a81f22;
+	text-decoration: none;
+}
+
+.right p {
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.right span {
+	background-color: #961b1e;
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+.right span a {
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
